@@ -1,3 +1,4 @@
-# Тема 91
-
-Содержание темы 91.
+# 91. Квантовые Вычисления / Quantum Computing
+- Qiskit / IBM
+- Cirq / Google
+- PennyLane / квантовое ML

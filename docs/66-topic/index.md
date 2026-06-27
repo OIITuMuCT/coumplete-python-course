@@ -1,3 +1,6 @@
-# Тема 66
-
-Содержание темы 66.
+# 66. Рекурсия / Recursion
+- Факториал / Factorial
+- Последовательность Фибоначчи / Fibonacci
+- Ханойские башни / Tower of Hanoi
+- Backtracking / возврат
+- Поиск с возвратом / N-Queens, Sudoku

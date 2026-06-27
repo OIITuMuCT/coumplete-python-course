@@ -1,3 +1,17 @@
-# Тема 27
-
-Содержание темы 27.
+# 27. Flask
+- Основы Flask / Flask Basics
+- Маршрутизация / Routing - @app.route
+- Шаблоны / Templates - Jinja2
+- Статические файлы / Static Files
+- Обработка форм / Forms - WTForms
+- Работа с сессиями / Sessions
+- Куки / Cookies
+- Работа с базой данных / Database Integration - Flask-SQLAlchemy
+- Аутентификация / Authentication - Flask-Login
+- REST API на Flask / Flask-RESTful, Flask-RESTx
+- Blueprint / Blueprints - модульность
+- Middleware
+- Обработка ошибок / Error Handling
+- Декораторы в Flask / Flask Decorators
+- Контекст приложения и запроса / Application & Request Context
+- Flask расширения / Flask Extensions

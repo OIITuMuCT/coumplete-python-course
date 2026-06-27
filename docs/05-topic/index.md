@@ -1,3 +1,11 @@
-# Тема 05
-
-Содержание темы 05.
+# 05. Строки и работа с ними / Strings & String Operations
+- Строковые литералы / String Literals
+- Конкатенация строк / String Concatenation
+- Индексация строк / String Indexing
+- Срезы строк / String Slicing
+- Методы строк / String Methods: upper(), lower(), strip(), split(), join(), replace(), find(), startswith(), endswith(), isalpha(), isdigit(), count()
+- Форматирование строк / String Formatting: f-строки / f-strings, format(), %-форматирование
+- Сырые строки / Raw Strings - r""
+- Многострочные строки / Multiline Strings - """"""
+- Управляющие последовательности / Escape Sequences
+- Юникод в строках / Unicode Strings

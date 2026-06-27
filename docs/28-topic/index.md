@@ -1,3 +1,18 @@
-# Тема 28
-
-Содержание темы 28.
+# 28. Django
+- Структура проекта / Project Structure
+- Модели / Models - база данных
+- Представления / Views - логика
+- Шаблоны / Templates - HTML
+- URL-маршрутизация / URL Routing - urls.py
+- Формы / Forms - Form, ModelForm
+- Админ-панель / Admin Panel
+- Аутентификация / Authentication
+- Django ORM - запросы
+- Миграции / Migrations
+- Сигналы / Signals
+- Middleware
+- Class-Based Views / CBV
+- Django REST Framework / DRF
+- Декораторы в Django / Django Decorators
+- Контекстные процессоры / Context Processors
+- Кастомные менеджеры / Custom Managers

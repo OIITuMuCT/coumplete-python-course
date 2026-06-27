@@ -1,3 +1,12 @@
-# Тема 03
-
-Содержание темы 03.
+# 03. Типы данных / Data Types
+- Числа: целые, с плавающей точкой, комплексные / Numbers: int, float, complex
+- Строки / Strings - str
+- Списки / Lists - list
+- Кортежи / Tuples - tuple
+- Словари / Dictionaries - dict
+- Множества / Sets - set
+- Булевы значения / Booleans - bool
+- Тип None / NoneType
+- Преобразование типов / Type Conversion
+- Проверка типов / Type Checking - isinstance
+- Подсказки типов / Type Hints

@@ -1,3 +1,11 @@
-# Тема 47
-
-Содержание темы 47.
+# 47. Selenium
+- Автоматизация браузера / Browser Automation
+- WebDriver - Chrome, Firefox, Edge
+- Поиск элементов / Finding Elements: By.ID, By.CLASS_NAME, By.XPATH, By.CSS_SELECTOR
+- Действия / Actions - click, send_keys, submit
+- Ожидания / Waits - implicit, explicit
+- JavaScript исполнение / JavaScript Execution - execute_script
+- Скриншоты / Screenshots - save_screenshot
+- Headless режим / Headless Browser
+- Обработка iframe / Handling iframes
+- Обработка popup / Popup Handling

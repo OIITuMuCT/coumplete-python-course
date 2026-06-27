@@ -1,3 +1,18 @@
-# Тема 33
-
-Содержание темы 33.
+# 33. Asyncio
+- async/await
+- Событийный цикл / Event Loop
+- Корутины / Coroutines
+- Задачи / Tasks - asyncio.create_task
+- Future объекты / Future Objects
+- Запуск корутин / Running Coroutines - asyncio.run
+- Ожидание задач / Awaiting Tasks - await, asyncio.gather, asyncio.wait
+- Таймауты / Timeouts - asyncio.wait_for
+- Отмена задач / Task Cancellation
+- Асинхронные контекстные менеджеры / Async Context Managers
+- Асинхронные итераторы / Async Iterators - `__aiter__`, `__anext__`
+- Асинхронные генераторы / Async Generators - async yield
+- Асинхронные очереди / Async Queues - asyncio.Queue
+- Асинхронные блокировки / Async Locks - asyncio.Lock
+- Асинхронные семафоры / Async Semaphores
+- asyncio.subprocess / Асинхронные процессы
+- Асинхронные библиотеки / Async Libraries: aiohttp, aiomysql, asyncpg, aioredis, aiofiles, asyncio.run_in_executor

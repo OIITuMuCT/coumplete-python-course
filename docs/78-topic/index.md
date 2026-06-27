@@ -1,3 +1,12 @@
-# Тема 78
-
-Содержание темы 78.
+# 78. Поведенческие Паттерны / Behavioral Patterns
+- Цепочка обязанностей / Chain of Responsibility
+- Команда / Command
+- Интерпретатор / Interpreter
+- Итератор / Iterator
+- Посредник / Mediator
+- Хранитель / Memento
+- Наблюдатель / Observer
+- Состояние / State
+- Стратегия / Strategy
+- Шаблонный метод / Template Method
+- Посетитель / Visitor

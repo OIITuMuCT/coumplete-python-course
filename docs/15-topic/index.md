@@ -1,3 +1,11 @@
-# Тема 15
-
-Содержание темы 15.
+# 15. Функциональное Программирование / Functional Programming
+- Лямбда-функции / Lambda Functions
+- Функция map() / map() Function
+- Функция filter() / filter() Function
+- Функция reduce() / reduce() Function - functools
+- Функция sorted() / sorted() Function
+- Функция zip() / zip() Function
+- Функции any() и all() / any() & all() Functions
+- Модуль functools / functools Module: partial(), lru_cache(), singledispatch(), total_ordering(), cmp_to_key()
+- Модуль itertools / itertools Module - расширенное
+- Модуль operator / operator Module - itemgetter, attrgetter, methodcaller

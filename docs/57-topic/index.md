@@ -1,3 +1,5 @@
-# Тема 57
-
-Содержание темы 57.
+# 57. Мониторинг / Monitoring
+- Prometheus / сбор метрик
+- Grafana / визуализация
+- Sentry / ошибки
+- ELK Stack / Elasticsearch, Logstash, Kibana

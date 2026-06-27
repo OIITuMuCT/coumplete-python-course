@@ -1,3 +1,7 @@
-# Тема 38
-
-Содержание темы 38.
+# 38. Seaborn
+- Статистические графики / Statistical Plots
+- Тепловые карты / Heatmaps
+- Pair plots
+- Violin plots
+- Box plots
+- Стили Seaborn / Seaborn Styles

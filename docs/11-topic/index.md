@@ -1,3 +1,18 @@
-# Тема 11
-
-Содержание темы 11.
+# 11. Объектно-Ориентированное Программирование / OOP - Object-Oriented Programming
+- Классы и объекты / Classes & Objects
+- Атрибуты / Attributes: Атрибуты экземпляра / Instance Attributes, Атрибуты класса / Class Attributes
+- Методы / Methods: Методы экземпляра / Instance Methods, Методы класса / Class Methods - @classmethod, Статические методы / Static Methods - @staticmethod
+- Конструктор `__init__` / Constructor
+- Деструктор `__del__` / Destructor
+- Наследование / Inheritance: Одиночное / Single, Множественное / Multiple, Многоуровневое / Multilevel
+- Порядок разрешения методов / MRO - Method Resolution Order
+- Инкапсуляция / Encapsulation: Приватные атрибуты / Private Attributes - `__`, Защищенные атрибуты / Protected Attributes - `_`
+- Полиморфизм / Polymorphism
+- Абстрактные классы / Abstract Classes - abc module
+- Интерфейсы / Interfaces
+- Магические методы / Magic Methods / Dunder Methods: `__str__`, `__repr__`, `__len__`, `__getitem__`, `__iter__`, `__next__`, `__call__`, `__enter__`, `__exit__`, `__add__`, `__sub__`, `__eq__`, `__lt__`, `__hash__`, `__new__`, `__init__`
+- Свойства / Properties - @property, @setter, @deleter
+- Слоты / Slots - `__slots__`
+- Дескрипторы / Descriptors - `__get__`, `__set__`, `__delete__`
+- Метаклассы / Metaclasses - type, `__metaclass__`
+- Датаклассы / Dataclasses - @dataclass

@@ -1,3 +1,12 @@
-# Тема 42
-
-Содержание темы 42.
+# 42. Глубокое Обучение / Deep Learning - TensorFlow/PyTorch
+- Тензоры / Tensors
+- Автоматическое дифференцирование / Autograd - Automatic Differentiation
+- Нейронные сети / Neural Networks: Полносвязные слои / Dense Layers, Функции активации / Activation Functions - ReLU, Sigmoid, Tanh, Оптимизаторы / Optimizers - SGD, Adam, RMSprop, Функции потерь / Loss Functions - MSE, Cross-Entropy
+- Сверточные нейросети / CNN - Convolutional Neural Networks: Сверточные слои / Conv2D, Pooling - MaxPooling, AveragePooling, Batch Normalization, Dropout
+- Рекуррентные нейросети / RNN - Recurrent Neural Networks: LSTM, GRU
+- Трансформеры / Transformers
+- Transfer Learning
+- Fine-tuning
+- Датасеты и загрузчики / Datasets & DataLoaders
+- Сохранение моделей / Model Saving - save, load
+- TensorBoard / визуализация

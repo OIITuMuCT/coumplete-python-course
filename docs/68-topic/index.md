@@ -1,3 +1,11 @@
-# Тема 68
-
-Содержание темы 68.
+# 68. PyQt / PySide
+- Основы Qt / Qt Basics
+- Сигналы и слоты / Signals & Slots
+- Виджеты / Widgets
+- Компоновка / Layouts - QLayout
+- Меню и панели / Menus & Toolbars
+- Диалоги / Dialogs - QDialog
+- Модель-представление / Model-View - QTableView, QListView
+- Qt Designer
+- Стили / QSS - Qt Style Sheets
+- Мультимедиа / Multimedia

@@ -1,3 +1,15 @@
-# Тема 29
-
-Содержание темы 29.
+# 29. FastAPI
+- Основы FastAPI / FastAPI Basics
+- Параметры пути / Path Parameters
+- Параметры запроса / Query Parameters
+- Тело запроса / Request Body - Pydantic
+- Валидация данных / Data Validation - Pydantic
+- Внедрение зависимостей / Dependency Injection
+- Аутентификация / Authentication - JWT, OAuth2
+- WebSockets
+- Фоновые задачи / Background Tasks
+- Middleware
+- Асинхронность / Async Support
+- Генерация документации / Documentation - Swagger, ReDoc
+- Тестирование / Testing - TestClient
+- Загрузка файлов / File Upload

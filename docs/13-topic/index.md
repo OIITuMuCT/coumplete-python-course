@@ -1,3 +1,14 @@
-# Тема 13
-
-Содержание темы 13.
+# 13. Декораторы / Decorators
+- Функциональные декораторы / Function Decorators
+- Классовые декораторы / Class Decorators
+- Декораторы с аргументами / Decorators with Arguments
+- Вложенные декораторы / Nested Decorators
+- Фабрика декораторов / Decorator Factory
+- Встроенные декораторы / Built-in Decorators: @staticmethod, @classmethod, @property
+- functools.wraps
+- Кеширующие декораторы / Caching Decorators - @lru_cache
+- Декораторы для измерения времени / Timing Decorators
+- Декораторы для логирования / Logging Decorators
+- Декораторы для аутентификации / Authentication Decorators
+- Декораторы для валидации / Validation Decorators
+- Цепочки декораторов / Decorator Chaining

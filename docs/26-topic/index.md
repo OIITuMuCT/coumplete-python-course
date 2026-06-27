@@ -1,3 +1,12 @@
-# Тема 26
-
-Содержание темы 26.
+# 26. HTTP и Сеть / HTTP & Networking
+- HTTP протокол / HTTP Protocol
+- Заголовки / Headers
+- Методы HTTP / HTTP Methods: GET, POST, PUT, DELETE, PATCH
+- Статус-коды / Status Codes
+- Библиотека requests
+- Библиотека urllib
+- Библиотека httpx / асинхронный
+- Сокеты / Sockets: TCP сокеты / TCP Sockets, UDP сокеты / UDP Sockets
+- Серверная часть / Server-side - http.server
+- REST API
+- GraphQL

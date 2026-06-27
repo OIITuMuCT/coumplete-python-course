@@ -1,3 +1,11 @@
-# Тема 70
-
-Содержание темы 70.
+# 70. Pygame
+- Инициализация / Initialization - pygame.init
+- Окно игры / Game Window - pygame.display
+- Поверхности / Surfaces
+- Спрайты / Sprites
+- Коллизии / Collisions
+- Звук и музыка / Sound & Music - pygame.mixer
+- События / Events - pygame.event
+- Шрифты / Fonts - pygame.font
+- Анимация / Animation
+- Игровой цикл / Game Loop

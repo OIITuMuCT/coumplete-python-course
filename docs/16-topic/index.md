@@ -1,3 +1,17 @@
-# Тема 16
-
-Содержание темы 16.
+# 16. Файловая Система / File System
+- Открытие файлов / Opening Files - open()
+- Режимы открытия / File Modes: r, w, a, x, rb, wb, r+, w+, a+
+- Чтение файлов / Reading Files: read(), readline(), readlines()
+- Запись в файлы / Writing Files: write(), writelines()
+- Позиционирование в файле / File Positioning - seek(), tell()
+- Закрытие файлов / Closing Files - close()
+- Блок with / with Statement
+- Работа с CSV / CSV Files - csv module
+- Работа с JSON / JSON Files - json module
+- Работа с Pickle / Pickle Files - pickle module
+- Работа с XML / XML Files - xml.etree.ElementTree
+- Работа с YAML / YAML Files - PyYAML
+- Бинарные файлы / Binary Files
+- Временные файлы / Temporary Files - tempfile module
+- Работа с путями / Working with Paths: os.path, pathlib
+- Работа с директориями / Directory Operations - os, shutil

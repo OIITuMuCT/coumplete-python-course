@@ -1,3 +1,12 @@
-# Тема 17
-
-Содержание темы 17.
+# 17. Обработка Ошибок / Error Handling
+- Синтаксические ошибки / Syntax Errors
+- Исключения / Exceptions: Встроенные исключения / Built-in Exceptions, Иерархия исключений / Exception Hierarchy
+- Блок try/except / try/except Block
+- Множественные исключения / Multiple Exceptions
+- Блок else / else Block
+- Блок finally / finally Block
+- raise / raise Statement
+- Пользовательские исключения / Custom Exceptions
+- Цепочки исключений / Exception Chaining - raise ... from
+- assert / assertions
+- Предупреждения / Warnings - warnings module

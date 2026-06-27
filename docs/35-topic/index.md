@@ -1,3 +1,13 @@
-# Тема 35
-
-Содержание темы 35.
+# 35. NumPy
+- Создание массивов / Array Creation - np.array
+- Типы данных / Data Types - dtype
+- Форма массива / Array Shape
+- Изменение формы / Reshape - .reshape()
+- Индексация и срезы / Indexing & Slicing
+- Универсальные функции / Universal Functions - ufunc
+- Операции с массивами / Array Operations
+- Широковещание / Broadcasting
+- Линейная алгебра / Linear Algebra - np.linalg
+- Случайные числа / Random Sampling - np.random
+- Статистика / Statistics - np.mean, np.std, np.median
+- Маскированные массивы / Masked Arrays

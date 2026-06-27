@@ -1,3 +1,13 @@
-# Тема 04
-
-Содержание темы 04.
+# 04. Управляющие конструкции / Control Flow
+- Условный оператор if / if Statement
+- Конструкция if-else / if-else Statement
+- Цепочка elif / elif Chain
+- Тернарный оператор / Ternary Operator
+- Конструкция match/case / match/case - Python 3.10+
+- Цикл while / while Loop
+- Цикл for / for Loop
+- Вложенные циклы / Nested Loops
+- Оператор break / break Statement
+- Оператор continue / continue Statement
+- Оператор pass / pass Statement
+- Цикл с else / Loop with else

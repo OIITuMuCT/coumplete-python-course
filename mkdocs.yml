@@ -33,6 +33,7 @@ site_dir: site
 
 theme:
   name: material
+#  name: readthedocs
   language: ru
 
   palette:
@@ -92,13 +93,6 @@ plugins:
         - en
       separator: '[\s\-\.]+'
 
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-      fallback_to_build_date: true
-      locale: ru
-      enable_git_follow: false
-
   - minify:
       minify_html: true
       minify_js: true
@@ -153,10 +147,12 @@ markdown_extensions:
 # ============================================================================
 
 nav:
-  - Главная: index.md
+  - 🏠Главная: index.md
+  - 📚 Оглавление: toc.md
   - Статистика: statistics.md
 
-  - 📚 Основы Python:
+  - 📖 Основы Python:
+      - 00. Краткое содержание: 00-topic/index.md
       - 01. Введение и настройка: 01-topic/index.md
       - 02. Основы синтаксиса: 02-topic/index.md
       - 03. Типы данных: 03-topic/index.md
@@ -347,4 +343,4 @@ validation:
 # DEV СЕРВЕР / DEV SERVER
 # ============================================================================
 
-dev_addr: 127.0.0.1:8000
+dev_addr: 127.0.0.1:8001

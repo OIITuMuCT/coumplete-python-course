@@ -1,3 +1,22 @@
-# Тема 36
-
-Содержание темы 36.
+# # 36. Pandas
+- Series
+- DataFrame
+- Чтение данных / Reading Data: read_csv, read_excel, read_json, read_sql, read_html
+- Запись данных / Writing Data: to_csv, to_excel, to_json, to_sql
+- Индексация / Indexing - loc, iloc, at, iat
+- Выборка данных / Data Selection
+- Фильтрация / Filtering
+- Сортировка / Sorting - sort_values, sort_index
+- Группировка / Grouping - groupby
+- Агрегация / Aggregation - agg, transform, apply
+- Сводные таблицы / Pivot Tables - pivot, pivot_table
+- Слияние данных / Merging - merge, join, concat
+- Работа с пропущенными данными / Missing Data - isnull, dropna, fillna
+- Работа с дубликатами / Duplicates - duplicated, drop_duplicates
+- Преобразование данных / Data Transformation
+- Применение функций / apply, applymap
+- Работа со временем / Time Series - DatetimeIndex
+- resample / Resampling
+- Оконные функции / Window Functions - rolling, expanding
+- Категориальные данные / Categorical Data
+- Производительность Pandas / Pandas Performance
