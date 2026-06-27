@@ -1,0 +1,350 @@
+# mkdocs.yml
+# Configuration for MkDocs 1.6.1
+# Полный курс Python / Complete Python Course
+
+# ============================================================================
+# ОБЩАЯ ИНФОРМАЦИЯ / GENERAL INFORMATION
+# ============================================================================
+
+site_name: 🐍 Полный курс Python
+site_url: https://python-complete-course.github.io/
+site_description: Полный курс Python от основ до профессиональных областей
+site_author: Python Course Team
+copyright: © 2026 - Полный курс Python / Complete Python Course
+
+# ============================================================================
+# НАСТРОЙКА РЕПОЗИТОРИЯ / REPOSITORY SETTINGS
+# ============================================================================
+
+repo_name: python-complete-course
+repo_url: https://github.com/python-complete-course/python-complete-course
+edit_uri: edit/main/docs/
+
+# ============================================================================
+# ПУТИ / PATHS
+# ============================================================================
+
+docs_dir: docs
+site_dir: site
+
+# ============================================================================
+# ТЕМА ОФОРМЛЕНИЯ / THEME
+# ============================================================================
+
+theme:
+  name: material
+  language: ru
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на темную тему
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - announce.dismiss
+    - header.autohide
+
+# ============================================================================
+# ПЛАГИНЫ / PLUGINS
+# ============================================================================
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+      separator: '[\s\-\.]+'
+
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      fallback_to_build_date: true
+      locale: ru
+      enable_git_follow: false
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# ============================================================================
+# МАРКДАУН РАСШИРЕНИЯ / MARKDOWN EXTENSIONS
+# ============================================================================
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+      toc_depth: 6
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# ============================================================================
+# НАВИГАЦИЯ / NAVIGATION
+# ============================================================================
+
+nav:
+  - Главная: index.md
+  - Статистика: statistics.md
+
+  - 📚 Основы Python:
+      - 01. Введение и настройка: 01-topic/index.md
+      - 02. Основы синтаксиса: 02-topic/index.md
+      - 03. Типы данных: 03-topic/index.md
+      - 04. Управляющие конструкции: 04-topic/index.md
+      - 05. Строки: 05-topic/index.md
+      - 06. Списки: 06-topic/index.md
+      - 07. Кортежи: 07-topic/index.md
+      - 08. Словари: 08-topic/index.md
+      - 09. Множества: 09-topic/index.md
+
+  - 🏗️ Продвинутый Python:
+      - 10. Функции: 10-topic/index.md
+      - 11. ООП: 11-topic/index.md
+      - 12. Итераторы и генераторы: 12-topic/index.md
+      - 13. Декораторы: 13-topic/index.md
+      - 14. Контекстные менеджеры: 14-topic/index.md
+      - 15. Функциональное программирование: 15-topic/index.md
+
+  - 📁 Работа с данными:
+      - 16. Файловая система: 16-topic/index.md
+      - 17. Обработка ошибок: 17-topic/index.md
+      - 18. Логирование и отладка: 18-topic/index.md
+
+  - 📦 Модули и пакеты:
+      - 19. Модули: 19-topic/index.md
+      - 20. Пакеты: 20-topic/index.md
+      - 21. Управление пакетами: 21-topic/index.md
+
+  - 🗄️ Базы данных:
+      - 22. SQLite: 22-topic/index.md
+      - 23. PostgreSQL / MySQL: 23-topic/index.md
+      - 24. ORM: 24-topic/index.md
+      - 25. NoSQL: 25-topic/index.md
+
+  - 🌐 Веб-разработка:
+      - 26. HTTP и сеть: 26-topic/index.md
+      - 27. Flask: 27-topic/index.md
+      - 28. Django: 28-topic/index.md
+      - 29. FastAPI: 29-topic/index.md
+      - 30. WebSockets: 30-topic/index.md
+
+  - 🔄 Асинхронность:
+      - 31. Многопоточность: 31-topic/index.md
+      - 32. Многопроцессорность: 32-topic/index.md
+      - 33. Asyncio: 33-topic/index.md
+      - 34. Concurrent.futures: 34-topic/index.md
+
+  - 📊 Data Science:
+      - 35. NumPy: 35-topic/index.md
+      - 36. Pandas: 36-topic/index.md
+      - 37. Matplotlib: 37-topic/index.md
+      - 38. Seaborn: 38-topic/index.md
+      - 39. Plotly: 39-topic/index.md
+      - 40. SciPy: 40-topic/index.md
+
+  - 🤖 Машинное обучение:
+      - 41. Scikit-learn: 41-topic/index.md
+      - 42. Глубокое обучение: 42-topic/index.md
+      - 43. NLP: 43-topic/index.md
+      - 44. Компьютерное зрение: 44-topic/index.md
+
+  - 🕷️ Веб-скрапинг:
+      - 45. BeautifulSoup: 45-topic/index.md
+      - 46. Scrapy: 46-topic/index.md
+      - 47. Selenium: 47-topic/index.md
+
+  - 🤖 Автоматизация:
+      - 48. Системная автоматизация: 48-topic/index.md
+      - 49. Email автоматизация: 49-topic/index.md
+      - 50. Excel / Word / PDF: 50-topic/index.md
+
+  - 🧪 Тестирование:
+      - 51. Unit Testing: 51-topic/index.md
+      - 52. Mocking: 52-topic/index.md
+      - 53. TDD / BDD: 53-topic/index.md
+
+  - 🐳 DevOps:
+      - 54. Docker: 54-topic/index.md
+      - 55. CI/CD: 55-topic/index.md
+      - 56. Облачные платформы: 56-topic/index.md
+      - 57. Мониторинг: 57-topic/index.md
+
+  - 🔒 Безопасность:
+      - 58. Криптография: 58-topic/index.md
+      - 59. Аутентификация: 59-topic/index.md
+      - 60. Защита от атак: 60-topic/index.md
+
+  - 📐 Алгоритмы:
+      - 61. Сортировка: 61-topic/index.md
+      - 62. Поиск: 62-topic/index.md
+      - 63. Графы: 63-topic/index.md
+      - 64. Динамическое программирование: 64-topic/index.md
+      - 65. Структуры данных: 65-topic/index.md
+      - 66. Рекурсия: 66-topic/index.md
+
+  - 🎨 GUI:
+      - 67. Tkinter: 67-topic/index.md
+      - 68. PyQt / PySide: 68-topic/index.md
+      - 69. Kivy: 69-topic/index.md
+      - 70. Pygame: 70-topic/index.md
+
+  - 🎮 Разработка игр:
+      - 71. Разработка игр на Pygame: 71-topic/index.md
+      - 72. Arcade Library: 72-topic/index.md
+
+  - 📈 Оптимизация:
+      - 73. Профилирование: 73-topic/index.md
+      - 74. Оптимизация кода: 74-topic/index.md
+      - 75. Управление памятью: 75-topic/index.md
+
+  - 🎯 Паттерны:
+      - 76. Порождающие: 76-topic/index.md
+      - 77. Структурные: 77-topic/index.md
+      - 78. Поведенческие: 78-topic/index.md
+      - 79. Архитектурные: 79-topic/index.md
+
+  - 🔧 Инструменты:
+      - 80. Git: 80-topic/index.md
+      - 81. IDE и редакторы: 81-topic/index.md
+      - 82. Статический анализ: 82-topic/index.md
+      - 83. Документация: 83-topic/index.md
+
+  - 📦 Распространение:
+      - 84. Упаковка: 84-topic/index.md
+      - 85. Дистрибуция: 85-topic/index.md
+
+  - 🔬 Специализации:
+      - 86. Научные вычисления: 86-topic/index.md
+      - 87. Обработка аудио: 87-topic/index.md
+      - 88. Обработка видео: 88-topic/index.md
+      - 89. Робототехника: 89-topic/index.md
+      - 90. IoT: 90-topic/index.md
+      - 91. Квантовые вычисления: 91-topic/index.md
+      - 92. Блокчейн: 92-topic/index.md
+
+  - 📚 Дополнительно:
+      - 93. Регулярные выражения: 93-topic/index.md
+      - 94. Дата и время: 94-topic/index.md
+      - 95. API разработка: 95-topic/index.md
+      - 96. Микросервисы: 96-topic/index.md
+      - 97. Data Engineering: 97-topic/index.md
+      - 98. Математика: 98-topic/index.md
+
+  - 💼 Карьера:
+      - 99. Собеседования: 99-topic/index.md
+      - 100. Карьерный рост: 100-topic/index.md
+
+# ============================================================================
+# ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ / EXTRA SETTINGS
+# ============================================================================
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/python-complete-course
+      name: GitHub
+    - icon: fontawesome/brands/python
+      link: https://www.python.org
+      name: Python
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/python
+      name: Discord
+    - icon: fontawesome/brands/reddit
+      link: https://reddit.com/r/Python
+      name: Reddit
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/questions/tagged/python
+      name: Stack Overflow
+
+  generator: true
+
+# ============================================================================
+# ВАЛИДАЦИЯ / VALIDATION
+# ============================================================================
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+
+# ============================================================================
+# DEV СЕРВЕР / DEV SERVER
+# ============================================================================
+
+dev_addr: 127.0.0.1:8000
