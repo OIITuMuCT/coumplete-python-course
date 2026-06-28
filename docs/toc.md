@@ -1,6 +1,3 @@
-[//]: # (## 📚 Оглавление полного курса Python)
-
-[//]: # (## 📚 Complete Python Course Table of Contents)
 
 ---
 
@@ -1089,32 +1086,65 @@
 ## 📊 Статистика курса / Course Statistics
 
 | Категория / Category | Количество тем / Topics |
-|---------------------|------------------------|
-| Основы Python | 9 |
-| Продвинутый Python | 6 |
-| Работа с данными | 3 |
-| Модули и пакеты | 3 |
-| Базы данных | 4 |
-| Веб-разработка | 5 |
-| Асинхронность | 4 |
-| Data Science | 6 |
-| Машинное обучение | 4 |
-| Веб-скрапинг | 3 |
-| Автоматизация | 3 |
-| Тестирование | 3 |
-| DevOps | 4 |
-| Безопасность | 3 |
-| Алгоритмы | 6 |
-| GUI и графика | 4 |
-| Разработка игр | 2 |
-| Оптимизация | 3 |
-| Паттерны | 4 |
-| Инструменты | 4 |
-| Распространение | 2 |
-| Специализации | 7 |
-| Дополнительно | 6 |
-| Карьера | 2 |
-| **ИТОГО / TOTAL** | **100** |
+|----------------------|-------------------------|
+| Основы Python        | 9                       |
+| Продвинутый Python   | 6                       |
+| Работа с данными     | 3                       |
+| Модули и пакеты      | 3                       |
+| Базы данных          | 4                       |
+| Веб-разработка       | 5                       |
+| Асинхронность        | 4                       |
+| Data Science         | 6                       |
+| Машинное обучение    | 4                       |
+| Веб-скрапинг         | 3                       |
+| Автоматизация        | 3                       |
+| Тестирование         | 3                       |
+| DevOps               | 4                       |
+| Безопасность         | 3                       |
+| Алгоритмы            | 6                       |
+| GUI и графика        | 4                       |
+| Разработка игр       | 2                       |
+| Оптимизация          | 3                       |
+| Паттерны             | 4                       |
+| Инструменты          | 4                       |
+| Распространение      | 2                       |
+| Специализации        | 7                       |
+| Дополнительно        | 6                       |
+| Карьера              | 2                       |
+| **ИТОГО / TOTAL**    | **100**                 |
+
+---
+
+## 📚 РЕСУРСЫ / RESOURCES
+
+### 📖 Рекомендуемые книги / Recommended Books
+- **Fluent Python** by Luciano Ramalho
+- **Effective Python** by Brett Slatkin
+- **Python Cookbook** by David Beazley
+- **Automate the Boring Stuff** by Al Sweigart
+- **Python Crash Course** by Eric Matthes
+
+### 🌐 Полезные сайты / Useful Websites
+- [Python.org](https://www.python.org) - Официальная документация / Official Documentation
+- [Real Python](https://realpython.com) - Уроки и статьи / Tutorials & Articles
+- [PyPI](https://pypi.org) - Репозиторий пакетов / Package Repository
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/python) - Вопросы и ответы / Q&A
+- [LeetCode](https://leetcode.com) - Задачи для собеседований / Interview Problems
+- [Kaggle](https://kaggle.com) - Data Science проекты / Data Science Projects
+
+### 🎥 YouTube каналы / YouTube Channels
+- Corey Schafer
+- Sentdex
+- Tech With Tim
+- CS Dojo
+- freeCodeCamp
+
+### 💬 Сообщества / Communities
+- [r/Python](https://reddit.com/r/Python) - Reddit сообщество
+- [Python Discord](https://discord.gg/python) - Discord сервер
+- [PyCon](https://pycon.org) - Конференции / Conferences
+
+---
 
 ---
 

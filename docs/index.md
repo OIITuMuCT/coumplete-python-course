@@ -2,34 +2,34 @@
 
 ## 📚 ОГЛАВЛЕНИЕ / TABLE OF CONTENTS
 
-- [Введение / Introduction](#-введение--introduction)
-- [Основы Python / Python Basics](#-основы-python--python-basics)
-- [Продвинутый Python / Advanced Python](#-продвинутый-python--advanced-python)
-- [Работа с данными и файлами / Data & File Handling](#-работа-с-данными-и-файлами--data--file-handling)
-- [Модули и пакеты / Modules & Packages](#-модули-и-пакеты--modules--packages)
-- [Базы данных / Databases](#-базы-данных--databases)
-- [Веб-разработка / Web Development](#-веб-разработка--web-development)
-- [Асинхронность и конкуренция / Async & Concurrency](#-асинхронность-и-конкуренция--async--concurrency)
-- [Data Science / Data Science](#-data-science)
-- [Машинное обучение / Machine Learning](#-машинное-обучение--machine-learning)
-- [Веб-скрапинг / Web Scraping](#-веб-скрапинг--web-scraping)
-- [Автоматизация / Automation](#-автоматизация--automation)
-- [Тестирование / Testing](#-тестирование--testing)
-- [DevOps и Deployment / DevOps & Deployment](#-devops-и-deployment--devops--deployment)
-- [Безопасность / Security](#-безопасность--security)
+- [Введение / Introduction](01-topic/index.md#-введение--introduction)
+- [Основы Python / Python Basics](02-topic/index.md#-основы-python--python-basics)
+- [Продвинутый Python / Advanced Python](10-topic/index.md#-продвинутый-python--advanced-python)
+- [Работа с данными и файлами / Data & File Handling](16-topic/index.md#-работа-с-данными-и-файлами--data--file-handling)
+- [Модули и пакеты / Modules & Packages](19-topic/index.md#-модули-и-пакеты--modules--packages)
+- [Базы данных / Databases](22-topic/index.md#-базы-данных--databases)
+- [Веб-разработка / Web Development](26-topic/index.md#-веб-разработка--web-development)
+- [Асинхронность и конкуренция / Async & Concurrency](31-topic/index.md#-асинхронность-и-конкуренция--async--concurrency)
+- [Data Science / Data Science](35-topic/index.md#-data-science)
+- [Машинное обучение / Machine Learning](41-topic/index.md#-машинное-обучение--machine-learning)
+- [Веб-скрапинг / Web Scraping](45-topic/index.md#-веб-скрапинг--web-scraping)
+- [Автоматизация / Automation](48-topic/index.md#-автоматизация--automation)
+- [Тестирование / Testing](51-topic/index.md#-тестирование--testing)
+- [DevOps и Deployment / DevOps & Deployment](54-topic/index.md#-devops-и-deployment--devops--deployment)
+- [Безопасность / Security](58-topic/index.md#-безопасность--security)
 - [Алгоритмы и структуры данных / Algorithms & Data Structures](61-topic/index.md#-алгоритмы-и-структуры-данных--algorithms--data-structures)
-- [GUI и графика / GUI & Graphics](#-gui-и-графика--gui--graphics)
-- [Разработка игр / Game Development](#-разработка-игр--game-development)
-- [Профилирование и оптимизация / Profiling & Optimization](#-профилирование-и-оптимизация--profiling--optimization)
-- [Паттерны проектирования / Design Patterns](#-паттерны-проектирования--design-patterns)
-- [Инструменты разработчика / Developer Tools](#-инструменты-разработчика--developer-tools)
-- [Распространение / Distribution](#-распространение--distribution)
-- [Специализированные области / Specialized Areas](#-специализированные-области--specialized-areas)
-- [Дополнительные темы / Additional Topics](#-дополнительные-темы--additional-topics)
-- [Карьера / Career](#-карьера--career)
+- [GUI и графика / GUI & Graphics](67-topic/index.md#-gui-и-графика--gui--graphics)
+- [Разработка игр / Game Development](71-topic/index.md#-разработка-игр--game-development)
+- [Профилирование и оптимизация / Profiling & Optimization](73-topic/index.md#-профилирование-и-оптимизация--profiling--optimization)
+- [Паттерны проектирования / Design Patterns](76-topic/index.md#-паттерны-проектирования--design-patterns)
+- [Инструменты разработчика / Developer Tools](80-topic/index.md#-инструменты-разработчика--developer-tools)
+- [Распространение / Distribution](84-topic/index.md#-распространение--distribution)
+- [Специализированные области / Specialized Areas](86-topic/index.md#-специализированные-области--specialized-areas)
+- [Дополнительные темы / Additional Topics](93-topic/index.md#-дополнительные-темы--additional-topics)
+- [Карьера / Career](100-topic/index.md#-карьера--career)
 - [Статистика курса / Course Statistics](#-статистика-курса--course-statistics)
 - [Как использовать этот курс / How to Use This Course](#-как-использовать-этот-курс--how-to-use-this-course)
-- [Ресурсы / Resources](#-ресурсы--resources)
+- [Ресурсы / Resources](resourses/index.md#-ресурсы--resources)
 
 ---
 
@@ -1059,32 +1059,32 @@ This course contains **100 main topics** with Russian names and English equivale
 
 ## 📊 СТАТИСТИКА КУРСА / COURSE STATISTICS
 
-| № | Категория / Category | Количество тем / Topics Count |
-|---|----------------------|-------------------------------|
-| 1-9 | Основы Python / Python Basics | 9 |
-| 10-15 | Продвинутый Python / Advanced Python | 6 |
-| 16-18 | Работа с данными и файлами / Data & File Handling | 3 |
-| 19-21 | Модули и пакеты / Modules & Packages | 3 |
-| 22-25 | Базы данных / Databases | 4 |
-| 26-30 | Веб-разработка / Web Development | 5 |
-| 31-34 | Асинхронность и конкуренция / Async & Concurrency | 4 |
-| 35-40 | Data Science | 6 |
-| 41-44 | Машинное обучение / Machine Learning | 4 |
-| 45-47 | Веб-скрапинг / Web Scraping | 3 |
-| 48-50 | Автоматизация / Automation | 3 |
-| 51-53 | Тестирование / Testing | 3 |
-| 54-57 | DevOps и Deployment / DevOps & Deployment | 4 |
-| 58-60 | Безопасность / Security | 3 |
-| 61-66 | Алгоритмы и структуры данных / Algorithms & Data Structures | 6 |
-| 67-70 | GUI и графика / GUI & Graphics | 4 |
-| 71-72 | Разработка игр / Game Development | 2 |
-| 73-75 | Профилирование и оптимизация / Profiling & Optimization | 3 |
-| 76-79 | Паттерны проектирования / Design Patterns | 4 |
-| 80-83 | Инструменты разработчика / Developer Tools | 4 |
-| 84-85 | Распространение / Distribution | 2 |
-| 86-92 | Специализированные области / Specialized Areas | 7 |
-| 93-98 | Дополнительные темы / Additional Topics | 6 |
-| 99-100 | Карьера / Career | 2 |
+| №      | Категория / Category                                        | Количество тем / Topics Count |
+|--------|-------------------------------------------------------------|-------------------------------|
+| 1-9    | Основы Python / Python Basics                               | 9                             |
+| 10-15  | Продвинутый Python / Advanced Python                        | 6                             |
+| 16-18  | Работа с данными и файлами / Data & File Handling           | 3                             |
+| 19-21  | Модули и пакеты / Modules & Packages                        | 3                             |
+| 22-25  | Базы данных / Databases                                     | 4                             |
+| 26-30  | Веб-разработка / Web Development                            | 5                             |
+| 31-34  | Асинхронность и конкуренция / Async & Concurrency           | 4                             |
+| 35-40  | Data Science                                                | 6                             |
+| 41-44  | Машинное обучение / Machine Learning                        | 4                             |
+| 45-47  | Веб-скрапинг / Web Scraping                                 | 3                             |
+| 48-50  | Автоматизация / Automation                                  | 3                             |
+| 51-53  | Тестирование / Testing                                      | 3                             |
+| 54-57  | DevOps и Deployment / DevOps & Deployment                   | 4                             |
+| 58-60  | Безопасность / Security                                     | 3                             |
+| 61-66  | Алгоритмы и структуры данных / Algorithms & Data Structures | 6                             |
+| 67-70  | GUI и графика / GUI & Graphics                              | 4                             |
+| 71-72  | Разработка игр / Game Development                           | 2                             |
+| 73-75  | Профилирование и оптимизация / Profiling & Optimization     | 3                             |
+| 76-79  | Паттерны проектирования / Design Patterns                   | 4                             |
+| 80-83  | Инструменты разработчика / Developer Tools                  | 4                             |
+| 84-85  | Распространение / Distribution                              | 2                             |
+| 86-92  | Специализированные области / Specialized Areas              | 7                             |
+| 93-98  | Дополнительные темы / Additional Topics                     | 6                             |
+| 99-100 | Карьера / Career                                            | 2                             |
 
 ---
 
